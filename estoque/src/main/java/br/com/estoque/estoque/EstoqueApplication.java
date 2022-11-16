@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import builder.ConstrutorDePedido;
 import model.Pedido;
+import model.Produto;
 
 @RestController
 @SpringBootApplication
@@ -28,6 +29,13 @@ public class EstoqueApplication {
 		.builder();
 	return pedido;
 	}
+
+	// @RequestMapping("/getAll")
+	// public Pedido all() {
+	// 	Pedido pedido = new Pedido();
+		
+	// return pedido;
+	// }
 
 
 	public static void main(String[] args) {

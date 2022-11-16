@@ -65,6 +65,14 @@ public class Pedido {
             "\n   - Produto(s) -" + produtos + 
             "\n****************************************************************\n";   
     }
+
+    // public int size() {
+    //     return 0;
+    // }
+
+    // public char[] get(int i) {
+    //     return null;
+    // }
 }
 
 
